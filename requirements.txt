@@ -1,2 +1,4 @@
 Faker
 pytest
+build
+twine
