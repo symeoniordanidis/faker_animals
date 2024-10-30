@@ -1,7 +1,7 @@
 import pytest
 from faker import Faker
-from ..animals import AnimalsProvider
-from ..constants import animals
+from faker_animals.animals import AnimalsProvider
+from faker_animals.constants import animals
 
 @pytest.fixture
 def fake():
