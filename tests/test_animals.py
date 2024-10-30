@@ -17,6 +17,9 @@ def animal_names():
 def animal_scientific_names():
     return [animal['scientific_name'] for animal in animals]
 
+def test_animal(fake):
+    animal = fake.animal()
+    assert animal is not None
 
 def test_animal_name(fake,animal_names):
     name = fake.animal_name()
