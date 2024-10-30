@@ -17,7 +17,7 @@ Add as a provider to your Faker instance:
 
 ``` python
 from faker import Faker
-from faker-animals import AnimalsProvider
+from faker_animals import AnimalsProvider
 fake.add_provider(AnimalsProvider)
 ```
 
