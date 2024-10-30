@@ -1,3 +1,5 @@
 .idea/
 venv/
 .vscode/
+dist/
+*.egg-info/
