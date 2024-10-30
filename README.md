@@ -1,23 +1,23 @@
-# faker_animals
+# faker-animals
 A provider for the python faker library to generate animals data.
 
 ## Description
 
-`faker_animals` offers comprehensive and accurate animals data,covering an extensive range of species. It includes info like the common name and the scientific name. This data can be useful for applications requiring realistic representations of biological diversity, educational tools, wildlife databases, or any project that needs accurate animal species data.
+`faker-animals` offers comprehensive and accurate animals data,covering an extensive range of species. It includes info like the common name and the scientific name. This data can be useful for applications requiring realistic representations of biological diversity, educational tools, wildlife databases, or any project that needs accurate animal species data.
 
 ## Installation
 
 Install with pip:
 
 ``` bash
-pip install faker_animals
+pip install faker-animals
 ```
 
 Add as a provider to your Faker instance:
 
 ``` python
 from faker import Faker
-from faker_animals import AnimalsProvider
+from faker-animals import AnimalsProvider
 fake.add_provider(AnimalsProvider)
 ```
 
