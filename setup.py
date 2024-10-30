@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="faker_animal",  # Your package name on PyPI
-    version="0.1.0",               # Package version
+    name="faker_animals",  # Your package name on PyPI
+    version="1.0",               # Package version
     license='MIT',
     description="A provider for the python faker library to generate random animals data",
     long_description=open("README.md").read(),
